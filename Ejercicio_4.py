@@ -19,11 +19,18 @@ while(True):
     total = precio + total
     
 
-    opcion = input("¿Quiere agregar otro articulo? (si/no): ")
+    while(True):
+        opcion = input("¿Quiere agregar otro articulo? (si/no): ")
+    
+        if(opcion == "no"):
+            break
+    
+        if(opcion == "si"):
+            break
     
     if(opcion == "no"):
         break
-    
+
     if(opcion == "si"):
         continue
     
